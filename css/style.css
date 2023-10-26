@@ -392,7 +392,7 @@ footer{
 
 .footerData{
 	display: flex;
-	gap: 5rem;
+	gap: 6rem;
 }
 
 .footerDescription{
@@ -460,12 +460,14 @@ footer{
 	border: 1px solid var(--Cyan);
 	color: var(--Cyan);
 }
-@media screen and (max-width: 1200px) {
+
+@media screen and (max-width: 980px) {
 	.footerData{
 		display: grid;
 		grid-template-columns: repeat(3, 1fr);
 	}
 }
+
 @media screen and (max-width: 767px) {
 	.wrapper{
 		margin-inline: 1.5rem;
@@ -586,3 +588,4 @@ footer{
 		justify-content: center;
 	}
 }
+
