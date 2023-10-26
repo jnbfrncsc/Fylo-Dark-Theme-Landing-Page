@@ -383,7 +383,9 @@ footer{
 }
 
 .footerContainer{
-	padding: 2.5rem;
+	max-width: 1280px;
+	margin: 0 auto;
+	padding: 0 1.5rem;
 }
 
 .footerLogo img{
@@ -392,7 +394,7 @@ footer{
 
 .footerData{
 	display: flex;
-	gap: 6rem;
+	gap: 5rem;
 }
 
 .footerDescription{
@@ -588,4 +590,3 @@ footer{
 		justify-content: center;
 	}
 }
-
