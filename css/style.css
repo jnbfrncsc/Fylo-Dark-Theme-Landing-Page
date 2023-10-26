@@ -565,6 +565,9 @@ footer{
 	.footerData{
 		flex-direction: column;
 	}
+	.footerDescription{
+		max-width: 100%;
+	}
 	.contactInfo,
 	.footerList01,
 	.footerList02{
