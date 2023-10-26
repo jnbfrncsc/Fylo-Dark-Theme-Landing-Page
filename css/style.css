@@ -391,9 +391,8 @@ footer{
 }
 
 .footerData{
-	display: grid;
-	grid-template-columns: repeat(5, max-content);
-	gap: 4rem;
+	display: flex;
+	gap: 5rem;
 }
 
 .footerDescription{
@@ -543,6 +542,7 @@ footer{
 
 	.emailSection{
 		width: 100%;
+		bottom: -150px;
 	}
 	.emailContainer h2{
 		font-size: 1.3rem;
@@ -557,13 +557,13 @@ footer{
 
 
 	footer{
-		padding-bottom: 10rem;
+		padding: 15rem 0 10rem;
 	}
 	.footerContainer{
 		padding: 0 1.5rem;
 	}
 	.footerData{
-		grid-template-columns: 100%;
+		flex-direction: column;
 	}
 	.contactInfo,
 	.footerList01,
@@ -575,5 +575,11 @@ footer{
 		width: 100%;
 		align-items: center;
 		justify-content: center;
+	}
+}
+
+@media screen and (max-width: 1200px) {
+	.testimonialSection{
+		padding: 1.5rem;
 	}
 }
