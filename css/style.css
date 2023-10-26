@@ -460,7 +460,12 @@ footer{
 	border: 1px solid var(--Cyan);
 	color: var(--Cyan);
 }
-
+@media screen and (max-width: 1200px) {
+	.footerData{
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+	}
+}
 @media screen and (max-width: 767px) {
 	.wrapper{
 		margin-inline: 1.5rem;
@@ -541,8 +546,8 @@ footer{
 
 
 	.emailSection{
-		width: 100%;
 		bottom: -150px;
+		width: 100%;
 	}
 	.emailContainer h2{
 		font-size: 1.3rem;
@@ -563,7 +568,8 @@ footer{
 		padding: 0 1.5rem;
 	}
 	.footerData{
-		flex-direction: column;
+		display: grid;
+		grid-template-columns: 100%;
 	}
 	.footerDescription{
 		max-width: 100%;
@@ -578,11 +584,5 @@ footer{
 		width: 100%;
 		align-items: center;
 		justify-content: center;
-	}
-}
-
-@media screen and (max-width: 1200px) {
-	.testimonialSection{
-		padding: 1.5rem;
 	}
 }
