@@ -383,9 +383,7 @@ footer{
 }
 
 .footerContainer{
-	max-width: 1230px;
-	margin: 0 auto;
-	padding: 2.5rem 1rem;
+	padding: 2.5rem;
 }
 
 .footerLogo img{
@@ -395,12 +393,12 @@ footer{
 .footerData{
 	display: grid;
 	grid-template-columns: repeat(5, max-content);
-	gap: 3.8rem;
+	gap: 4rem;
 }
 
 .footerDescription{
 	display: flex;
-	max-width: 400px;
+	max-width: 370px;
 	font-size: 1rem;
 	line-height: 1.55;
 	gap: 1.75rem;
